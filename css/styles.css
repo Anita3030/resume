@@ -1,0 +1,169 @@
+/****** ELEMENTS ******/
+body {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h1 {
+    margin: 0 auto 0 auto; 
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+    line-height: 2;
+
+}
+
+h2.contact {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #EAF6F6;
+    font-weight: bold;
+    margin: 0 auto 40px auto;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #66BFBF;
+    font-weight: bold;
+    margin: 0 auto 40px auto;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    margin: 40px auto;
+
+}
+
+p {
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 2;
+}
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+button {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 30px auto;
+}
+
+button:hover {
+    background:  #30e3cb;
+    background-image: -webkit-linear-gradient(top,  #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top,  #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top,  #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top,  #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom,  #30e3cb, #2bc4ad);
+    text-decoration: none; 
+}
+
+a.footer-link {
+    color:#11999e;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    margin: 10px 20px;
+    font-size: 20px;
+    font-weight: 900;
+    
+}
+
+a.footer-link:hover {
+    color: #EAF6F6;
+}
+
+/****** CLASS ******/
+
+.top-container {
+    margin: 0 auto;
+    background-color: #EAF6F6;
+    position: relative;
+    padding: 50px 0 80px 0;
+    
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 100px;
+    
+}
+
+.profilepic {
+    width: 15%;
+    margin: 50px auto;
+}
+
+.intro {
+    margin: 50px auto;
+    width: 50%;
+    text-align: left;
+}
+
+.heading {
+    margin: 50px auto;
+   
+}
+
+.eng-img {
+    width: 20%;
+    float: left;
+    margin: 0 30px 110px 0;
+}
+
+.teacher-img {
+    width: 25%;
+    float: right;
+    margin: 0 0 80px 20px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    margin-top: 20px;
+    padding: 50px 0 20px;
+}
+
+.contact-message {
+    margin: 30px auto;
+}
+
+.creater {
+    color: #EAF6F6;
+    margin: 20px auto 0 auto;
+    font-size: 0.75rem;
+}
