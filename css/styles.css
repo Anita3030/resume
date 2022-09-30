@@ -134,17 +134,12 @@ a.footer-link:hover {
    
 }
 
-.eng-img {
-    width: 20%;
+.img {
+    width: 10%;
     float: left;
-    margin: 0 30px 110px 0;
+    margin-right: 30px;
 }
 
-.teacher-img {
-    width: 25%;
-    float: right;
-    margin: 0 0 80px 20px;
-}
 
 .skill-row {
     width: 50%;
@@ -156,6 +151,11 @@ a.footer-link:hover {
     background-color: #66BFBF;
     margin-top: 20px;
     padding: 50px 0 20px;
+}
+
+.education{
+text-align: center;
+
 }
 
 .contact-message {
